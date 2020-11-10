@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import TracksContext from "../utils/TracksContext";
-import SearchForm from "./SearchForm";
 import styled from "styled-components";
 
 const StyledEmployees = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -41,23 +41,23 @@ const StyledEmployees = styled.div`
   }
 `;
 const ShowEmployees = () => {
-  const {
-    result: { Name, Picture },
-  } = useContext(TracksContext);
-
+  const { result } = useContext(TracksContext);
+  console.log(result);
   return (
     <StyledEmployees>
-      <div className="card">
-        {Name ? (
-          <>
-            <h1>{Name || "Search for an Employee to Begin"}</h1>
-            <img alt={Name} src={Picture} />
-          </>
-        ) : (
-          <h3>No Results to Display</h3>
-        )}
-        <SearchForm />
-      </div>
+      {result?.map(({ name, picture, location, email, phone }, i) => (
+        <div className="card" key={i}>
+          <img className="img" src={picture.large}></img>
+          <div className="card-title">
+            <h3>{name.first + " " + name.last}</h3>
+            <h3>
+              {location.city + ", " + location.state + ", " + location.country}
+            </h3>
+            <h3>{email}</h3>
+            <h3>{phone}</h3>
+          </div>
+        </div>
+      ))}
     </StyledEmployees>
   );
 };

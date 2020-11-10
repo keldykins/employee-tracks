@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 const StyledSearchForm = styled.form`
   display: flex;
-  border: 1px solid #333333;
+  /* border: 1px solid #333333; */
   padding: 10px;
   margin-top: 20px;
-  width: 60%;
+  width: 65%;
   .form-group {
     display: flex;
     flex-direction: column;
@@ -22,9 +22,10 @@ const StyledSearchForm = styled.form`
     }
     button {
       height: 40px;
-      border-radius: 5px;
-      background-color: gray;
-      color: #ffffff;
+      width: 65px;
+      border-radius: 1px;
+      background-color: #eeeeee;
+      color: #333333;
       font-size: 20px;
     }
   }
@@ -47,7 +48,7 @@ const SearchForm = () => {
           id="search"
         />
         <br />
-        <button onClick={handleFormSubmit}>Search</button>
+        <button onClick={handleFormSubmit}>Sort</button>
       </div>
     </StyledSearchForm>
   );

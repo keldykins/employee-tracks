@@ -9,6 +9,7 @@ const StyledHeader = styled.div`
   padding: 20px;
   h1 {
     color: #ffffff;
+    font-size: 100px;
   }
 `;
 

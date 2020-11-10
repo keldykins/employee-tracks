@@ -9,7 +9,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background: rgb(3, 78, 103);
+  background: radial-gradient(
+    circle,
+    rgba(3, 78, 103, 1) 0%,
+    rgba(77, 113, 106, 1) 24%,
+    rgba(160, 161, 180, 1) 57%,
+    rgba(241, 244, 245, 1) 100%
+  );
 }
 
 code {
