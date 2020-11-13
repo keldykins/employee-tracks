@@ -47,7 +47,7 @@ const ShowEmployees = () => {
     <StyledEmployees>
       {result?.map(({ name, picture, location, email, phone }, i) => (
         <div className="card" key={i}>
-          <img className="img" src={picture.large}></img>
+          <img className="img" alt={name} src={picture.large}></img>
           <div className="card-title">
             <h3>{name.first + " " + name.last}</h3>
             <h3>
