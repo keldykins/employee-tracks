@@ -1,6 +1,6 @@
 {
   "name": "employee-directory",
-  "homepage": "https://keldykins.github.io/employee-tracks",
+  "homepage": "https://keldykins.github.io/employee-tracks/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
