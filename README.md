@@ -1,31 +1,27 @@
 # Employee Tracks Directory
 
-## Overview
+## Description
 
-An employee directory created with Javascript, React, Node.
+An employee directory intended to view and sort non-sensitive employee data.
 
-## User Story
+## Usage
+https://keldykins.github.io/employee-tracks/
 
-As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information. I want to be able to sort A-Z and have a search function that pulls up the employee as I'm typing in the search form.
+## Contact
 
-## Business Context
+Github: [keldykins](http://github.com/keldykins)
+<br />
+Email: [kelcundy@gmail.com](kelcundy@gmail.com)
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+## License
 
-## Functionality
+Copyright © 2020 Keldan Cundy
 
-Given a set of employees, when the user loads the page, a set of employees should render.
-The user should be able to:
-Sort the employees by at least one category
-Filter the users by at least one property.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Main Dependencies
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-"react": "^17.0.1", "react-bootstrap": "^1.4.0",
-
-## Installation
-
-This app is deployed to via Github Pages. To see the app: Github Page
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Screenshots
 
